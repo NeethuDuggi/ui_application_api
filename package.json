@@ -1,0 +1,17 @@
+{
+  "name": "new-test",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "@azure/functions": "^4.0.0",
+    "@azure/identity": "^4.5.0",
+    "@azure/keyvault-secrets": "^4.9.0",
+    "axios": "^1.7.7",
+    "mysql2": "^3.11.4"
+  },
+  "main": "src/{index.js,functions/*.js}"
+}
